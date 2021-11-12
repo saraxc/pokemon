@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Bitter:ital,wght@0,100;1,100&family=Hind+Siliguri:wght@300&family=Luckiest+Guy&family=Mohave:wght@300&family=Open+Sans+Condensed:ital,wght@0,700;1,300&family=Permanent+Marker&family=Playfair+Display&family=Roboto:ital,wght@0,100;1,900&family=Shadows+Into+Light&family=Sigmar+One&family=Zen+Kurenaido&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Armata&family=Audiowide&family=Bitter:ital,wght@0,100;1,100&family=Hind+Siliguri:wght@300&family=Luckiest+Guy&family=Mohave:wght@300&family=Open+Sans+Condensed:ital,wght@0,700;1,300&family=Permanent+Marker&family=Playfair+Display&family=Roboto:ital,wght@0,100;1,900&family=Shadows+Into+Light&family=Sigmar+One&family=Zen+Kurenaido&display=swap');
+body {
+    background: #000;
+    text-align: center;
+    font-family: 'Audiowide', cursive;
+}
+
+h1 {
+    font-family: 'Sigmar One', cursive;
+    color: white;
+}
+
+.pokemon-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.pokemon-block, .pokemon-block-back {
+    border-radius: 10px;
+    padding: 10px;
+    background-color: white;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 1px 18px 2px rgba(255, 255, 255, 0.93);
+    box-shadow: 0px 10px 13px -7px #000000, 5px 1px 18px 2px rgba(255, 255, 255, 0.93);
+}
+
+.pokemon-block p {
+    margin: 5px;
+}
+
+.name {
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.pagination {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+.card-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transform-style: preserve-3d;
+}
+
+.flip-card:hover .card-container {
+    transform: rotateY(180deg);
+}
+
+
+
